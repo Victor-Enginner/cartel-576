@@ -24,3 +24,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Pegasus: dados de execução
+pegasus/*.db
+pegasus/*.db-*
+pegasus/*.json.tmp
+pegasus/pegasus.json
+pegasus/*.log
+pegasus/parser.gerado.js
