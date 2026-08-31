@@ -312,6 +312,14 @@
     "source": "OSINT4ALL public CC0 archive"
   },
   {
+    "id": "osint4all-0073",
+    "title": "ZOOM URL Generator",
+    "url": "https://skyzh.github.io/zoom-url-generator/",
+    "category": "PRODUCTIVITY",
+    "access": "catalog",
+    "source": "OSINT4ALL public CC0 archive"
+  },
+  {
     "id": "osint4all-0074",
     "title": "Tor2web",
     "url": "https://www.tor2web.org/",
@@ -755,6 +763,14 @@
     "id": "osint4all-0129",
     "title": "CodePen",
     "url": "https://codepen.io/",
+    "category": "TOOLSET",
+    "access": "catalog",
+    "source": "OSINT4ALL public CC0 archive"
+  },
+  {
+    "id": "osint4all-0130",
+    "title": "Diceware Generator",
+    "url": "https://www.rempe.us/diceware/#eff",
     "category": "TOOLSET",
     "access": "catalog",
     "source": "OSINT4ALL public CC0 archive"
@@ -7091,6 +7107,14 @@
     "id": "osint4all-0937",
     "title": "ONYPHE",
     "url": "https://www.onyphe.io/",
+    "category": "DOMAIN / IP / DNS",
+    "access": "catalog",
+    "source": "OSINT4ALL public CC0 archive"
+  },
+  {
+    "id": "osint4all-0938",
+    "title": "IPLeak",
+    "url": "https://ipleak.net/",
     "category": "DOMAIN / IP / DNS",
     "access": "catalog",
     "source": "OSINT4ALL public CC0 archive"
