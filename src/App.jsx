@@ -24,7 +24,7 @@ function App() {
   const [selectedRepo, setSelectedRepo] = useState(null)
   const [copied, setCopied] = useState('')
 
-  useEffect(() => { fetch('/atlas-catalog.json').then(response => response.json()).then(setCatalog).catch(() => setCatalog([])) }, [])
+  useEffect(() => { fetch(`${import.meta.env.BASE_URL}atlas-catalog.json`).then(response => response.json()).then(setCatalog).catch(() => setCatalog([])) }, [])
   const categories = useMemo(() => Object.entries(catalog.reduce((out, item) => ({ ...out, [item.category]: (out[item.category] || 0) + 1 }), {})).sort(([a], [b]) => a.localeCompare(b)), [catalog])
   const results = useMemo(() => catalog.filter(item => (category === 'ALL' || item.category === category) && (!favoritesOnly || favorites.has(item.id)) && `${item.title} ${item.category} ${item.url}`.toLowerCase().includes(query.toLowerCase())), [catalog, category, favorites, favoritesOnly, query])
   const chooseCategory = (value) => { setCategory(value); setVisible(24) }
